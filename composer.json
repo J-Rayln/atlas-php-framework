@@ -1,0 +1,21 @@
+{
+  "name": "jrayln/atlas-php-framework",
+  "description": "A simple PHP framework developed to practice my PHP skills.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Morales",
+      "email": "mike@michaelmorales.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Atlas\\App\\": "app/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "vlucas/phpdotenv": "^5.5@dev"
+  }
+}
